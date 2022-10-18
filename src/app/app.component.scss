@@ -1,0 +1,116 @@
+.hero{
+    width: 100%;
+    height: 100vh;
+    background: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column  ;
+
+}
+h1{
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 40px;
+    color: white;
+}
+.signup-box{
+    display: flex;
+    align-items: center;
+    max-width: 800px;
+    width: 90%;
+    flex-wrap: wrap;
+    background-color: white;
+ 
+}
+.signup-box .left-box{
+    flex-basis: 50%;
+    background-color: darkblue;
+    padding: 50px;
+    flex-grow: 1;
+    color: white;
+
+}
+.signup-box .right-box{
+    padding: 50px;
+    flex-basis: 50%;
+    flex-grow: 1;   
+}
+
+.input-box{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid white;
+    outline: none;
+    color: white;
+    background: transparent;
+}
+::placeholder{
+    color: white;
+}
+.left-box button{
+    width: 100%;
+    background: white;
+    padding: 10px;
+    margin-top: 20px;
+    outline: none;
+    border: 0;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition:  0.5s;
+    font-size: 16px;
+    cursor: pointer;
+   
+}
+.left-box button:hover{
+    font-weight: 500;
+    background: black;
+    color: white;
+}
+.left-box button span{
+    display: inline;
+    width: 0px;
+    overflow: hidden;
+}
+.left-box button:hover span{
+    width: 100%;
+}
+.left-box label{
+    margin-top: 20px;
+    font-size: 14px;
+    font-weight: 100;
+}
+.right-box a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    margin: 10px 0;
+    padding: 14px 15px;
+    font-size: 14px;
+}
+.right-box a i{
+    font-size: 18px;
+    margin-right: 10px;
+}
+#facebook-link{
+    background: #1778f2;
+}
+#twitter-link{
+    background: #1da1f2;
+}
+#google-link{
+    background: #ea4335;
+}
+.login-msg{
+    color: white;
+    margin-top: 30px;
+    font-size: 15px;
+}
+.login-msg a{
+    text-decoration: none;
+    color: #ea4335;
+    font-weight: 100;
+}
